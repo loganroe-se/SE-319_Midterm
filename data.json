@@ -1,0 +1,217 @@
+{
+  "Brands": [
+    {
+      "Name": "Nike",
+      "Logo": "images/logos/nike_logo.png",
+      "Products": [
+        {
+          "Name": "Full-zip Jacket",
+          "Cost": 135.00,
+          "Type": "Jackets",
+          "Image": "images/Nike/hoodie.png"
+        },
+        {
+          "Name": "Khakis",
+          "Cost": 85.00,
+          "Type": "Pants",
+          "Image": "images/Nike/khakis.png"
+        },
+        {
+          "Name": "Windbreaker",
+          "Cost": 130.00,
+          "Type": "Jackets",
+          "Image": "images/Nike/windbreaker.png"
+        },
+        {
+          "Name": "Long Sleeve Shirt",
+          "Cost": 55.00,
+          "Type": "Shirts",
+          "Image": "images/Nike/long_sleeve_shirt.png"
+        },
+        {
+          "Name": "T-Shirt",
+          "Cost": 45.00,
+          "Type": "Shirts",
+          "Image": "images/Nike/shirt.png"
+        },
+        {
+          "Name": "Sweatpants",
+          "Cost": 65.00,
+          "Type": "Pants",
+          "Image": "images/Nike/sweatpants.png"
+        }
+      ]
+    },
+    {
+      "Name": "adidas",
+      "Logo": "images/logos/adidas_logo.png",
+      "Products": [
+        {
+          "Name": "Fleece Hoodie",
+          "Cost": 95.00,
+          "Type": "Sweatshirts",
+          "Image": "images/addidas/fleece_hoodie.avif"
+        },
+        {
+          "Name": "Green Sweatpants",
+          "Cost": 65.00,
+          "Type": "Pants",
+          "Image": "images/addidas/green_sweatpants.avif"
+        },
+        {
+          "Name": "Grey Shoes",
+          "Cost": 115.00,
+          "Type": "Shoes",
+          "Image": "images/addidas/grey_shoe.avif"
+        },
+        {
+          "Name": "Red Shoes",
+          "Cost": 105.00,
+          "Type": "Shoes",
+          "Image": "images/addidas/red_shoe.avif"
+        },
+        {
+          "Name": "Puffer Coat",
+          "Cost": 140.00,
+          "Type": "Jackets",
+          "Image": "images/addidas/puffer_coat.avif"
+        },
+        {
+          "Name": "Black Sweatpants",
+          "Cost": 140.00,
+          "Type": "Pants",
+          "Image": "images/addidas/sweatpants.avif"
+        }
+
+      ]
+
+    },
+    {
+      "Name": "Old Navy",
+      "Logo": "images/logos/old_navy_logo.png",
+      "Products": [
+        {
+          "Name": "Dress Shirt",
+          "Cost": 40.00,
+          "Type": "Shirts",
+          "Image": "images/Old_Navy/dress_shirt.avif"
+        },
+        {
+          "Name": "Fur Coat",
+          "Cost": 140.00,
+          "Type": "Jackets",
+          "Image": "images/Old_Navy/fur_coat.avif"
+        },
+        {
+          "Name": "Pea Coat",
+          "Cost": 78.00,
+          "Type": "Jackets",
+          "Image": "images/Old_Navy/pea_coat.avif"
+        },
+        {
+          "Name": "Sequin Pants",
+          "Cost": 60.00,
+          "Type": "Pants",
+          "Image": "images/Old_Navy/sequin_pants.avif"
+        },
+        {
+          "Name": "Shirt",
+          "Cost": 35.00,
+          "Type": "Shirts",
+          "Image": "images/Old_Navy/shirt.avif"
+        },
+        {
+          "Name": "Sweater",
+          "Cost": 80.00,
+          "Type": "Sweatshirts",
+          "Image": "images/Old_Navy/sweater.avif"
+        }
+      ]
+      
+    },
+    {
+      "Name": "Reebok",
+      "Logo": "images/logos/reebok_logo.svg",
+      "Products": [
+        {
+          "Name": "Black and Pink Shoes",
+          "Cost": 110.00,
+          "Type": "Shoes",
+          "Image": "images/Reebok/black_pink_shoes.webp"
+        },
+        {
+          "Name": "Blue Sweatshirt",
+          "Cost": 45.00,
+          "Type": "Sweatshirts",
+          "Image": "images/Reebok/blue_sweatshirt.webp"
+        },
+        {
+          "Name": "Grey Sweatpants",
+          "Cost": 25.00,
+          "Type": "Pants",
+          "Image": "images/Reebok/grey_sweatpants.webp"
+        },
+        {
+          "Name": "Purple Tanktop",
+          "Cost": 35.00,
+          "Type": "Shirts",
+          "Image": "images/Reebok/purple_tanktop.webp"
+        },
+        {
+          "Name": "White Shoes",
+          "Cost": 70.00,
+          "Type": "Shoes",
+          "Image": "images/Reebok/white_shoe.webp"
+        },
+        {
+          "Name": "White Shorts",
+          "Cost": 35.00,
+          "Type": "Shorts",
+          "Image": "images/Reebok/white_shorts.webp"
+        }
+      ]
+    }, 
+    {
+      "Name": "Gymshark",
+      "Logo": "images/logos/gymshark.png",
+      "Products": [
+        {
+          "Name": "Flanel Jacket",
+          "Cost": 80.00,
+          "Type": "Jackets",
+          "Image": "images/Gymshark/flanel.webp"
+        },
+        {
+          "Name": "Hoodie",
+          "Cost": 60.00,
+          "Type": "Sweatshirts",
+          "Image": "images/Gymshark/hoodie.webp"
+        },
+        {
+          "Name": "Long Sleeve Shirt",
+          "Cost": 45.00,
+          "Type": "Shirts",
+          "Image": "images/Gymshark/long_sleeve_shirt.webp"
+        },
+        {
+          "Name": "Oversized Shirt",
+          "Cost": 40.00,
+          "Type": "Shirts",
+          "Image": "images/Gymshark/oversized_shirt.webp"
+        },
+        {
+          "Name": "T-Shirt",
+          "Cost": 35.00,
+          "Type": "Shirts",
+          "Image": "images/Gymshark/tshirt.webp"
+        },
+        {
+          "Name": "Black Shorts",
+          "Cost": 45.00,
+          "Type": "Shorts",
+          "Image": "images/Gymshark/shorts.webp"
+        }
+      ]
+    }
+  ]
+}

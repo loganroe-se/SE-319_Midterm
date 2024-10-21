@@ -1,0 +1,173 @@
+/* Universal Colors
+    Background of Website: white
+    General Text Color: black
+    Color of Nav Bar: #7878fa (hsl(240, 93%, 73%))
+    Color of Sub Bar/Side Bar: #cdd2ff (hsl(234, 100%, 90%))
+*/
+
+/* ---------- Body ---------- */
+body {
+    margin: auto;
+    background-color: white;
+}
+
+.main {
+    padding: 0 10px;
+    position: absolute;
+    top: 86px; right: 0; bottom: 0; left: 0;
+}
+
+/* ---------- Header ---------- */
+header {
+    background-color: hsl(240, 93%, 73%);
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    height: 86px;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    z-index: 1;
+}
+
+#sub_header {
+    background-color: hsl(234, 100%, 90%);
+    padding: 15px 0;
+    font-size: 18px;
+    height: fit-content;
+    position: fixed;
+    left: 0; right: 0; top: 86px;
+    z-index: 1;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: baseline;
+    margin-right: 7%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+}
+
+#log_in {
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: hsl(240, 93%, 65%);
+    border-radius: 50px;
+}
+
+#log_in:hover {
+    background-color: hsl(240, 93%, 60%);
+}
+
+#sign_out {
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: hsl(240, 93%, 65%);
+    border-radius: 50px;
+    display: none;
+}
+
+#sign_out:hover {
+    background-color: hsl(240, 93%, 60%);
+}
+
+#nav_name {
+    margin-left: 7%;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+
+#nav_name > a {
+    color: white;
+    text-decoration: none;
+}
+
+#welcome_text {
+    margin-left: 10%;
+}
+
+/* ---------- General ---------- */
+h1 {
+    text-align: center;
+}
+
+/* ---------- Home Page ---------- */
+#name_brands_header {
+    margin: 20px 0 35px;
+}
+
+.home_card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    margin: 0px 20% 25px;
+    background-color: hsl(0, 0%, 80%);
+    text-align: center;
+}
+
+.home_card:hover {
+    background-color: hsl(0, 0%, 75%);
+    cursor: pointer;
+}
+
+.home_card > img {
+    margin: 12px;
+    max-width: 100%;
+    max-height: 150px;
+}
+
+/* ---------- Product Page --------------*/
+#product_header {
+    margin-top: 30px;
+}
+
+#product_card_loc {
+    margin: 0 10%;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 40px 10px;
+}
+
+.card > img {
+    margin: 10px 10%;
+}
+
+.sidenav_filter {
+    height: 100%;
+    width: 375px;
+    position: fixed;
+    z-index: 1;
+    top: 86px;
+    left: 0;
+    overflow-x: hidden;
+    padding: 10px 0 0 175px;
+}
+
+.main_products {
+    margin-left: 250px;
+}
+
+#filters {
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 24px;
+    text-align: center;
+}
+
+#filters_content {
+    padding: 6px 10px;
+    font-size: 20px;
+}
